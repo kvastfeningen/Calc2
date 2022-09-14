@@ -70,7 +70,7 @@ namespace Calc2
 
                 string more = "";
                 Console.WriteLine("Om du vill addera flera tal, kör ++ och Enter");
-                Console.WriteLine("Om du vill subtrahera flera tal, kör ++ och Enter");
+                Console.WriteLine("Om du vill subtrahera flera tal, kör -- och Enter");
                 more = Console.ReadLine();
                 if (more == "++")
                 {
